@@ -27,3 +27,10 @@ subprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+/*
+dependencies {
+    classpath 'androidx.webkit:webkit:1.0.0'
+    classpath 'androidx.browser:browser:1.0.0'
+    classpath 'androidx.appcompat:appcompat:1.0.0'
+    classpath 'com.squareup.okhttp3:mockwebserver:3.11.0'
+}*/
